@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 import Pictr from './Pictr';
 
-const ExamplesContainerYoyo = styled.div`
+const ExamplesContainer = styled.div`
 width: 100vw;
 height: 100vh;
 display: flex;
@@ -14,11 +14,11 @@ justify-content: center;
 export default class Example extends Component {
     render = () => {
         return(
-            <ExamplesContainerYoyo>
+            <ExamplesContainer>
                 <Pictr />
                 <Pictr />
                 <Pictr />
-            </ExamplesContainerYoyo>
+            </ExamplesContainer>
         )
     }
 }
